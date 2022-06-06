@@ -14,7 +14,7 @@ The extention is designed for Chromium based browsers (Edge, Chrome, etc).
 
 ## Getting Started
 
-This extention can be added to your browser via the extentions dev mode from code, or a packaged version is provided in releases. To install the packaged version, simply download and double click to install. I plan to make this available on the Chrome extention store in time.
+This extention can be added to your browser via the extentions dev mode from code. I plan to make this available on the Chrome extention store in time.
 
 ## Affiliation
 
