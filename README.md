@@ -6,7 +6,7 @@ This extention is the AGOL Assistant's Assistant!
 
 The extention creates a button on each of your ArcGIS Online items' summary page which opens the item up in [ArcGIS Assistant](https://assistant.esri-ps.com/).
 
-![](resources\screenshot.png)
+![Drag Racing](resources/screenshot.png)
 
 ## Where can I use it?
 
