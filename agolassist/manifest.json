@@ -1,0 +1,18 @@
+{
+    "name": "AGOL Assistant Assistor",
+    "version": "0.0.1.0",
+    "manifest_version": 3,
+    "author": "Paul Skeen",
+    "description": "This extention is the AGOL Assistant's Assistant! It creates a button on each of your items summary page which opens the item up in ArcGIS Assistant at https://assistant.esri-ps.com/. This extention is in no way affiliated with ESRI.",
+    "icons": {
+         "128": "icons/agolassist2128.png"
+    },
+    "content_scripts":[
+        {
+          "matches":[
+            "https://*.arcgis.com/home/item.html?*"
+          ],
+          "js": ["content/jquery-3.6.0.min.js","content/addagabtn.js"]
+        }
+      ]
+}
