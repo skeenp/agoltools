@@ -1,0 +1,30 @@
+{
+  "name": "AGOL Tools",
+  "version": "0.0.2.0",
+  "manifest_version": 3,
+  "author": "Paul Skeen",
+  "description": "This is a toolkit to assist in management of ArcGIS Online (AGOL) items using the ArcGIS REST API calls as well as facilitating links to ArcGIS Assistant.",
+  "icons": {
+    "128": "icons/agolassist2128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.arcgis.com/home/item.html*"
+      ],
+      "js": [
+        "content/common.js",
+        "content/addbtn_agoassist_item.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://*.arcgis.com/home/content.html*"
+      ],
+      "js": [
+        "content/common.js",
+        "content/addbtn_agoassist_content.js"
+      ]
+    }
+  ]
+}
