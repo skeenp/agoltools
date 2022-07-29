@@ -26,8 +26,8 @@ function setupLoader(action, timeout = 30000) {
             loaderCheck = null
             // Add console call 
             console.log('agoltools ext: Page loaded');
-            //Init the script after a second
-            setTimeout(function(){action()}, 1000);;
+            //Init the script after a short delay
+            setTimeout(function(){action()}, 500);;
         }
     }, 500);
 }
